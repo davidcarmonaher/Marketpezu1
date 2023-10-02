@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header bg-warning">
+            <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="index" data-bs-toggle="tab" href="./Index.html" role="tab"
+                        aria-controls="home" aria-selected="false">Principal</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="secundaria" data-bs-toggle="tab" href="./Secundaria.html" role="tab"
+                        aria-controls="profile" aria-selected="false">Secundaria</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="Contacto" data-bs-toggle="tab" href="#Contacto" role="tab"
+                        aria-controls="profile" aria-selected="true">Contacto</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="Registro" data-bs-toggle="tab" href="./Registro.html" role="tab"
+                        aria-controls="profile" aria-selected="false">Registro</a>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <!-- Note: A custom script is used to activate validation:
+
+var forms = document.querySelectorAll('.needs-validation')
+Array.prototype.slice.call(forms)
+  .forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+-->
+            <form class="row g-3 needs-validation" novalidate="">
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltip01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationTooltip01" required="">
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltip02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationTooltip02" required="">
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltipUsername" class="form-label">Correo electrónico</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                        <input type="text" class="form-control" id="validationTooltipUsername"
+                            aria-describedby="validationTooltipUsernamePrepend" required="">
+                        <div class="invalid-tooltip">
+                            Please choose a unique and valid username.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 position-relative">
+                    <label for="validationTooltip03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationTooltip03" required="">
+                    <div class="invalid-tooltip">
+                        Please provide a valid city.
+                    </div>
+                </div>
+
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea">Comentarios</label>
+                </div>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit" mailto="davidcarmona.dch@gmail.com">Enviar</button>
+        </div>
+        </form>
+    </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2926.2995058268125!2d-1.662429024163825!3d42.82428680564729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5092855cefdac7%3A0xab7c62765f5209e2!2sCuatrovientos%20Centro%20Integrado!5e0!3m2!1ses!2ses!4v1696165650273!5m2!1ses!2ses"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="row">
+
+
+        <div class="card  col-lg-4">
+            <div class="card-body">
+                Teléfono: 666 000 666
+            </div>
+        </div>
+        <div class="card  col-lg-4">
+            <div class="card-body">
+                Correo: marketpezu@gmail.com
+            </div>
+        </div>
+        <div class="card  col-lg-4">
+            <div class="card-body">
+                Localización: Pamplona, Navarra, España
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
