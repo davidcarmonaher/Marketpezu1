@@ -21,8 +21,11 @@ Nuestra página web trata sobre la venta de teléfonos móviles de marca: Samsun
 
    
 Prototipo:
-
+Esta primera página es el index, por lo tanto la principal, y aquí ponemos unas fotos para acceder a los móviles de las marcas que hemos puesto ya que se supone que somos una empresa de reacondicionamiento.
 ![1](https://github.com/raulch145/Trabajo/assets/144687416/817727ae-b4af-45b8-93e9-85f2a583e7c5)
+Esta segunda página es la secundaria y aquí damos una pequeña descripción de las marcas que vendemos y unas imagenes de los móviles.
 ![image](https://github.com/raulch145/Trabajo/assets/144687416/51063c5f-8756-4f2f-8430-3de1062d0d32)
+Esta tercera página es la página de contactos donde ponemos un pequeño formulario para que puedas decirnos lo que quieras, un mapa con nuestra localización y una pequeña barra abajo donde pone nuestros contactos.
 ![image](https://github.com/raulch145/Trabajo/assets/144687416/ccfc8a42-d511-4eba-8476-44d7fd44b02f)
+Esta última página es una página con un formulario para registrarte en nuestra página.
 ![image](https://github.com/raulch145/Trabajo/assets/144687416/58ef2780-9fcb-486d-ab9e-b4e3311b1231)
