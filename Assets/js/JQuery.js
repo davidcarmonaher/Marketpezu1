@@ -5,6 +5,7 @@ $(function () {
     $("#pagregistro").hide();
 
     $("#index").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").show();
         $("#pagsecundaria").hide();
         $("#pagcontacto").hide();
@@ -12,6 +13,7 @@ $(function () {
     });
 
     $("#indexs").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").show();
         $("#pagcontacto").hide();
@@ -19,6 +21,7 @@ $(function () {
     });
 
     $("#indexc").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").hide();
         $("#pagcontacto").show();
@@ -26,6 +29,7 @@ $(function () {
     });
 
     $("#indexr").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").hide();
         $("#pagcontacto").hide();
@@ -33,6 +37,7 @@ $(function () {
     });
 
     $("#secundariai").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").show();
         $("#pagsecundaria").hide();
         $("#pagcontacto").hide();
@@ -40,6 +45,7 @@ $(function () {
     });
 
     $("#secundaria").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").show();
         $("#pagcontacto").hide();
@@ -47,6 +53,7 @@ $(function () {
     });
 
     $("#secundariac").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").hide();
         $("#pagcontacto").show();
@@ -54,6 +61,7 @@ $(function () {
     });
 
     $("#secundariar").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").hide();
         $("#pagcontacto").hide();
@@ -61,6 +69,7 @@ $(function () {
     });
 
     $("#contactoi").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").show();
         $("#pagsecundaria").hide();
         $("#pagcontacto").hide();
@@ -68,6 +77,7 @@ $(function () {
     });
 
     $("#contactos").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").show();
         $("#pagcontacto").hide();
@@ -75,6 +85,7 @@ $(function () {
     });
 
     $("#contacto").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").hide();
         $("#pagcontacto").show();
@@ -82,6 +93,7 @@ $(function () {
     });
 
     $("#contactor").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").hide();
         $("#pagcontacto").hide();
@@ -89,6 +101,7 @@ $(function () {
     });
 
     $("#registroi").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").show();
         $("#pagsecundaria").hide();
         $("#pagcontacto").hide();
@@ -96,6 +109,7 @@ $(function () {
     });
 
     $("#registros").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").show();
         $("#pagcontacto").hide();
@@ -103,6 +117,7 @@ $(function () {
     });
 
     $("#registroc").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").hide();
         $("#pagcontacto").show();
@@ -110,9 +125,32 @@ $(function () {
     });
 
     $("#registro").on("click", function (event) {
+        event.preventDefault();
         $("#pagindex").hide();
         $("#pagsecundaria").hide();
         $("#pagcontacto").hide();
         $("#pagregistro").show();
+    });
+
+    $("#movilsamsung").on("click", function (event) {
+        event.preventDefault();
+        $("#pagindex").hide();
+        $("#pagsecundaria").show();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
+    });
+    $("#movilapple").on("click", function (event) {
+        event.preventDefault();
+        $("#pagindex").hide();
+        $("#pagsecundaria").show();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
+    });
+    $("#movilgoogle").on("click", function (event) {
+        event.preventDefault();
+        $("#pagindex").hide();
+        $("#pagsecundaria").show();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
     });
 });
