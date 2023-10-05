@@ -1,140 +1,118 @@
-$(document).ready(function(){
-    $("#index").on( "click", function() {
-    $('#pagindex').show();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').hide();
-    $('#pagregistro').hide();
+$(function () {   
+    $("#pagindex").show();
+    $("#pagsecundaria").hide();
+    $("#pagcontacto").hide();
+    $("#pagregistro").hide();
 
+    $("#index").on("click", function (event) {
+        $("#pagindex").show();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
     });
-}); 
-$(function(){    
-    $("index").on("click", function(){
-    $('#pagindex').show();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').hide();
-    $('#pagregistro').hide();
-    });
-});
-$(function(){    
-    $("index").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').show();
-    $('#pagcontacto').hide();
-    $('#pagregistro').hide();
-    });
-});
-$(function(){    
-    $("index").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').show();
-    $('#pagregistro').hide();
-    });
-});
-$(function(){    
-    $("index").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').hide();
-    $('#pagregistro').show();
-    });
-});
 
-$(function(){    
-    $("secundaria").on("click", function(){
-    $('#pagindex').show();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').hide();
-    $('#pagregistro').hide();
+    $("#indexs").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").show();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
     });
-});
-$(function(){    
-    $("secundaria").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').show();
-    $('#pagcontacto').hide();
-    $('#pagregistro').hide();
-    });
-});
-$(function(){    
-    $("secundaria").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').show();
-    $('#pagregistro').hide();
-    });
-});
-$(function(){    
-    $("secundaria").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').hide();
-    $('#pagregistro').show();
-    });
-});
 
-$(function(){    
-    $("contacto").on("click", function(){
-    $('#pagindex').show();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').hide();
-    $('#pagregistro').hide();
+    $("#indexc").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").show();
+        $("#pagregistro").hide();
     });
-});
-$(function(){    
-    $("contacto").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').show();
-    $('#pagcontacto').hide();
-    $('#pagregistro').hide();
-    });
-});
-$(function(){    
-    $("contacto").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').show();
-    $('#pagregistro').hide();
-    });
-});
-$(function(){    
-    $("contacto").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').hide();
-    $('#pagregistro').show();
-    });
-});
 
-$(function(){    
-    $("registro").on("click", function(){
-    $('#pagindex').show();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').hide();
-    $('#pagregistro').hide();
+    $("#indexr").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").hide();
+        $("#pagregistro").show();
     });
-});
-$(function(){    
-    $("registro").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').show();
-    $('#pagcontacto').hide();
-    $('#pagregistro').hide();
+
+    $("#secundariai").on("click", function (event) {
+        $("#pagindex").show();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
     });
-});
-$(function(){    
-    $("registro").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').show();
-    $('#pagregistro').hide();
+
+    $("#secundaria").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").show();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
     });
-});
-$(function(){    
-    $("registro").on("click", function(){
-    $('#pagindex').hide();
-    $('#pagsecundaria').hide();
-    $('#pagcontacto').hide();
-    $('#pagregistro').show();
+
+    $("#secundariac").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").show();
+        $("#pagregistro").hide();
+    });
+
+    $("#secundariar").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").hide();
+        $("#pagregistro").show();
+    });
+
+    $("#contactoi").on("click", function (event) {
+        $("#pagindex").show();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
+    });
+
+    $("#contactos").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").show();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
+    });
+
+    $("#contacto").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").show();
+        $("#pagregistro").hide();
+    });
+
+    $("#contactor").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").hide();
+        $("#pagregistro").show();
+    });
+
+    $("#registroi").on("click", function (event) {
+        $("#pagindex").show();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
+    });
+
+    $("#registros").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").show();
+        $("#pagcontacto").hide();
+        $("#pagregistro").hide();
+    });
+
+    $("#registroc").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").show();
+        $("#pagregistro").hide();
+    });
+
+    $("#registro").on("click", function (event) {
+        $("#pagindex").hide();
+        $("#pagsecundaria").hide();
+        $("#pagcontacto").hide();
+        $("#pagregistro").show();
     });
 });
